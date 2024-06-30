@@ -1,0 +1,33 @@
+
+.input-area {
+    margin:3px;
+    background-color: #ffffff;
+    padding:25px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    border-radius: 20px;
+    height:85%;
+    width: 800px;
+  }
+  
+  input {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .input-area{
+      width: 600px;
+     }
+   }
+
+   @media screen and (max-width: 590px) {
+    .input-area{
+      width: 400px;
+     }
+   }
+   
+   

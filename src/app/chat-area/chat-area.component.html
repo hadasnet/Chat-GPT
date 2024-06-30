@@ -1,0 +1,12 @@
+
+<div class="chat-messages">
+    <div *ngFor="let message of messages" class="message-container">
+        <div class="message-header">
+            <span class="sender" [ngStyle]="{'color': message.sender === 'Bot' ? '#08658A' : '#000000'}">{{ message.sender }}</span>
+            <span class="timestamp">{{ message.timestamp | date:'short' }}</span>
+        </div>
+        <div class="message">
+            {{ message.content }}
+        </div>
+    </div>
+</div>

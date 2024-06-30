@@ -1,0 +1,33 @@
+.toolbar {
+    height: 65px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 22px;
+    align-items: center;
+    display: flex;
+    font-weight: 500;
+    background-color: #08658A;
+    color: #ffffff;
+    padding: 5px 25px;
+  }
+  
+  .content {
+    margin: 80px auto 32px;
+    padding: 35px 65px;
+    width: 100%;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: absolute;
+    height: 65px;
+    background-color: #dfdfdf;
+    bottom: 0;
+    width: 100%;
+    padding: 10px; 
+    box-sizing: border-box; 
+  }
